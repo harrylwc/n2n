@@ -67,8 +67,8 @@ jobs:
 
       - name: Setup openwrt config and environment
         run: |
-          echo "CONFIG_TARGET_x86=y" >.config
-          echo "CONFIG_TARGET_x86_64=y" >>.config
+          echo "CONFIG_TARGET_ramips=y" >.config
+          echo "CONFIG_TARGET_mt7620=y" >>.config
 
       - name: Add n2n package to openwrt config
         run: |
