@@ -72,7 +72,7 @@ jobs:
           #echo "CONFIG_TARGET_ramips=y" >.config
           #echo "CONFIG_TARGET_mt7621=y" >>.config
           echo "CONFIG_TARGET_ipq40xx=y">.config
-          echo "CONFIG_TARGET_ipq40xx_generic=y>>.config
+          echo "CONFIG_TARGET_ipq40xx_generic=y">>.config
           #echo "CONFIG_TARGET_mvebu=y" >.config
           #echo "CONFIG_TARGET_mvebu_cortexa9=y" >>.config
 
